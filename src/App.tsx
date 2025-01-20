@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+
+// 使用 React.lazy 动态导入组件
+const Login = lazy(() => import('./pages/login/login'));
+const Register = lazy(() => import('./pages/login/register'));
+const Layout = lazy(() => import('./components/layout/index'));
+const Log = lazy(() => import('./pages/log/index'));
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // 模拟登录状态
+  const token = localStorage.getItem('token')
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Router>
+      {/* 使用 Suspense 包裹懒加载的组件 */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          {/* 进入系统，未登录则跳转 */}
+          <Route  path="/" element={ token ? <Layout /> : <Navigate to="/login" />} >
+            {/* 日志页面 */}
+            <Route path="/log" element={ <Log />} />
+          </Route>
+          {/* 登录页面 */}
+          <Route path="/login"  element={ token ? <Navigate to="/" /> : <Login />} />
+          {/* 注册页面 */}
+          <Route  path="/register" element={token ? <Navigate to="/" /> : <Register />} />
+          
+        </Routes>
+      </Suspense>
+    </Router>
+  );
 }
 
-export default App
+export default App;

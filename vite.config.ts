@@ -9,6 +9,8 @@ export default defineConfig({
       less: {
         // 全局变量
         modifyVars: {
+          "@nav-width": '50px',
+          "@primary-color": '#000',
         },
         javascriptEnabled: true, // 允许 Less 中使用 JavaScript 表达式
       },
