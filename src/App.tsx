@@ -19,7 +19,7 @@ function App() {
           {/* 进入系统，未登录则跳转 */}
           <Route  path="/" element={ token ? <Layout /> : <Navigate to="/login" />} >
             {/* 日志页面 */}
-            <Route path="/log" element={ <Log />} />
+            <Route path="/" element={ <Log />} />
           </Route>
           {/* 登录页面 */}
           <Route path="/login"  element={ token ? <Navigate to="/" /> : <Login />} />

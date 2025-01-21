@@ -1,0 +1,395 @@
+@font-face {
+  font-family: "taiwu"; /* Project id 3455087 */
+  src: url('iconfont.woff2?t=1737365443778') format('woff2'),
+       url('iconfont.woff?t=1737365443778') format('woff'),
+       url('iconfont.ttf?t=1737365443778') format('truetype');
+}
+
+.taiwu {
+  font-family: "taiwu" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-taiwuqiehuanyuyan:before {
+  content: "\e769";
+}
+
+.icon-taiwucompany:before {
+  content: "\e617";
+}
+
+.icon-taiwucontract2:before {
+  content: "\e618";
+}
+
+.icon-taiwudaily:before {
+  content: "\e619";
+}
+
+.icon-taiwuempty:before {
+  content: "\e624";
+}
+
+.icon-taiwuflag:before {
+  content: "\e625";
+}
+
+.icon-taiwugroup-fill:before {
+  content: "\e626";
+}
+
+.icon-taiwumanager:before {
+  content: "\e62f";
+}
+
+.icon-taiwuseal:before {
+  content: "\e635";
+}
+
+.icon-taiwumy:before {
+  content: "\e636";
+}
+
+.icon-taiwuseal-fill:before {
+  content: "\e637";
+}
+
+.icon-taiwuwalletY:before {
+  content: "\e64a";
+}
+
+.icon-taiwusend-gift:before {
+  content: "\e658";
+}
+
+.icon-taiwudiamond:before {
+  content: "\e682";
+}
+
+.icon-taiwu24h:before {
+  content: "\e68b";
+}
+
+.icon-taiwuman-examine:before {
+  content: "\e69d";
+}
+
+.icon-taiwuman-examine-fill:before {
+  content: "\e69f";
+}
+
+.icon-taiwugesture-drag:before {
+  content: "\e6a1";
+}
+
+.icon-taiwugesture-drag-fill:before {
+  content: "\e6a2";
+}
+
+.icon-taiwucoffee:before {
+  content: "\e76c";
+}
+
+.icon-taiwuxueshengqingjia:before {
+  content: "\e62e";
+}
+
+.icon-taiwuxuexi:before {
+  content: "\e7f1";
+}
+
+.icon-taiwuhuiyi:before {
+  content: "\ea3f";
+}
+
+.icon-taiwuribao:before {
+  content: "\ea40";
+}
+
+.icon-taiwuguanlidenglurizhi:before {
+  content: "\ea45";
+}
+
+.icon-taiwurenyuangongshi:before {
+  content: "\ea46";
+}
+
+.icon-taiwuwenjianguidang:before {
+  content: "\ea47";
+}
+
+.icon-taiwushixishengchengben:before {
+  content: "\ea48";
+}
+
+.icon-taiwuzhongzhimima:before {
+  content: "\ea49";
+}
+
+.icon-taiwua-xianchangkantan2:before {
+  content: "\e620";
+}
+
+.icon-taiwurili1:before {
+  content: "\e659";
+}
+
+.icon-taiwuapplication:before {
+  content: "\e63b";
+}
+
+.icon-taiwucompanu-main-data:before {
+  content: "\e63c";
+}
+
+.icon-taiwubasic-configuration:before {
+  content: "\e63d";
+}
+
+.icon-taiwuapproval:before {
+  content: "\e63e";
+}
+
+.icon-taiwuimage-gallery:before {
+  content: "\e63f";
+}
+
+.icon-taiwureturned-purchase:before {
+  content: "\e640";
+}
+
+.icon-taiwumall-manage:before {
+  content: "\e641";
+}
+
+.icon-taiwuprocess-inquire:before {
+  content: "\e642";
+}
+
+.icon-taiwuprocess-manage:before {
+  content: "\e643";
+}
+
+.icon-taiwustaff-manage:before {
+  content: "\e644";
+}
+
+.icon-taiwusupplier-ship:before {
+  content: "\e645";
+}
+
+.icon-taiwurole-permissions:before {
+  content: "\e646";
+}
+
+.icon-taiwusystem-center:before {
+  content: "\e647";
+}
+
+.icon-taiwuproject-manage:before {
+  content: "\e648";
+}
+
+.icon-taiwutarget:before {
+  content: "\e649";
+}
+
+.icon-taiwuziliaoshouce:before {
+  content: "\e898";
+}
+
+.icon-taiwuyouhuijuan:before {
+  content: "\e899";
+}
+
+.icon-taiwutijikongjian:before {
+  content: "\e89f";
+}
+
+.icon-taiwuyewu:before {
+  content: "\e8a0";
+}
+
+.icon-taiwu-guoji:before {
+  content: "\e8ab";
+}
+
+.icon-taiwushezhi:before {
+  content: "\e8b8";
+}
+
+.icon-taiwubaocun:before {
+  content: "\e8c8";
+}
+
+.icon-taiwujiaosequnti:before {
+  content: "\e8c9";
+}
+
+.icon-taiwuwenhao-yuankuang:before {
+  content: "\e8e9";
+}
+
+.icon-taiwupifuzhuti:before {
+  content: "\e91d";
+}
+
+.icon-taiwuxinzeng:before {
+  content: "\e616";
+}
+
+.icon-taiwujiabanshenqing:before {
+  content: "\e6b5";
+}
+
+.icon-taiwua-qingjia2:before {
+  content: "\e61f";
+}
+
+.icon-taiwua-Group427319236:before {
+  content: "\e621";
+}
+
+.icon-taiwua-Group427319243:before {
+  content: "\e622";
+}
+
+.icon-taiwua-yilaiku2:before {
+  content: "\e623";
+}
+
+.icon-taiwufaburenwu:before {
+  content: "\e680";
+}
+
+.icon-taiwurenwu:before {
+  content: "\e684";
+}
+
+.icon-taiwushalou:before {
+  content: "\e695";
+}
+
+.icon-taiwuxiaosuozi:before {
+  content: "\e608";
+}
+
+.icon-taiwuguanzhu:before {
+  content: "\e673";
+}
+
+.icon-taiwuwode:before {
+  content: "\e674";
+}
+
+.icon-taiwuwode1:before {
+  content: "\e675";
+}
+
+.icon-taiwuquxiao:before {
+  content: "\e676";
+}
+
+.icon-taiwufanhui:before {
+  content: "\e677";
+}
+
+.icon-taiwuxuanze:before {
+  content: "\e67c";
+}
+
+.icon-taiwuzhuyi:before {
+  content: "\e67e";
+}
+
+.icon-taiwuaixinshoucang:before {
+  content: "\e681";
+}
+
+.icon-taiwushuxiebianxie:before {
+  content: "\e690";
+}
+
+.icon-taiwulajixiangshanchu:before {
+  content: "\e692";
+}
+
+.icon-taiwuwenjianjia:before {
+  content: "\e69e";
+}
+
+.icon-taiwuyaoqing:before {
+  content: "\e6a7";
+}
+
+.icon-taiwubiaoqian:before {
+  content: "\e6ab";
+}
+
+.icon-taiwubiaoqian1:before {
+  content: "\e6ac";
+}
+
+.icon-taiwushangchuanyunpan:before {
+  content: "\e6b3";
+}
+
+.icon-taiwuxiazai:before {
+  content: "\e6b4";
+}
+
+.icon-taiwushoushouzhang:before {
+  content: "\e6ce";
+}
+
+.icon-taiwushoushoushi:before {
+  content: "\e6cf";
+}
+
+.icon-taiwubiaoqingweixiaoxinpengyou:before {
+  content: "\e6d4";
+}
+
+.icon-taiwufenxiangzhuanfa:before {
+  content: "\e716";
+}
+
+.icon-taiwuxiazaibendi:before {
+  content: "\e72e";
+}
+
+.icon-taiwukaoqinbaobiao:before {
+  content: "\e614";
+}
+
+.icon-taiwufenxiang:before {
+  content: "\e679";
+}
+
+.icon-taiwuhuiyuan:before {
+  content: "\e731";
+}
+
+.icon-taiwuwenhaozhuyi:before {
+  content: "\e67f";
+}
+
+.icon-taiwurili:before {
+  content: "\e687";
+}
+
+.icon-taiwutongzhi:before {
+  content: "\e691";
+}
+
+.icon-taiwufenleiyingyongtongzhi1:before {
+  content: "\e6a8";
+}
+
+.icon-taiwubijibenjilutongxunlu:before {
+  content: "\e71f";
+}
+

@@ -1,12 +1,11 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Login() {
-  const navigate = useNavigate();
 
   const handleLogin = () => {
     localStorage.setItem('token', 'your_token'); // 存储登录状态
     // 模拟登录成功
-    navigate('/'); // 登录成功后跳转到首页
+    location.reload()
   };
 
   return (

@@ -1,10 +1,10 @@
-interface NavItem {
+export interface NavItemType {
     title: string
     href: string
     icon?: string
 }
-export const navs: Array<NavItem> = [{
+export const navs: Array<NavItemType> = [{
   title: "工作日志",
-  icon: "log",
-  href: "/log"
+  icon: "icon-taiwudaily",
+  href: "/"
 }]
